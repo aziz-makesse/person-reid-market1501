@@ -53,3 +53,22 @@ This repository implements a two‑stage person Re‑ID pipeline on the Market�
    - **mAP**: mean Average Precision over all query instances, excluding same‑camera and junk images.
 
 **Final results after fine‑tuning**  
+  Rank‑1 Accuracy: 63.93%
+  mAP: 41.01%
+
+## Visualization
+
+The notebook includes a section to display, for five random queries, the query image alongside its top‑5 gallery matches, annotated with their cosine distances.
+
+## Usage
+
+1. Clone this repository.  
+2. Place `kaggle.json` in the root or use Colab to upload.  
+3. Open and run `notebooks/market1501_training.ipynb` on Colab or a GPU‑enabled environment.  
+4. Fine‑tune the model, extract features, evaluate metrics, and visualize matches.
+
+## Next Steps
+
+- Implement triplet or contrastive loss for improved embedding separation.  
+- Experiment with specialized Re‑ID architectures (OSNet, PCB).  
+- Deploy the backbone in an API (FastAPI or Streamlit) for live Re‑ID demonstrations.  
