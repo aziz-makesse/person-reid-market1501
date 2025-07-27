@@ -8,12 +8,10 @@ This repository implements a two‑stage person Re‑ID pipeline on the Market�
 
 - `first_approach.md`  
   Detailed description of the baseline approach using ImageNet‑pretrained ResNet50 and cosine similarity.
-- `notebooks/market1501_training.ipynb`  
+- `market1501_training.ipynb`  
   Colab notebook for dataset download, fine‑tuning ResNet50 on Market‑1501 IDs, backbone saving, feature extraction, and evaluation.
 - `resnet50_market1501_backbone.pth`  
   Trained backbone weights (no classification head).
-- `utils.py`  
-  Helper functions for dataset handling, feature extraction, and metric computation.
 - `README.md`  
   This file.
 
