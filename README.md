@@ -62,7 +62,7 @@ The notebook includes a section to display, for five random queries, the query i
 
 1. Clone this repository.  
 2. Place `kaggle.json` in the root or use Colab to upload.  
-3. Open and run `notebooks/market1501_training.ipynb` on Colab or a GPU‑enabled environment.  
+3. Open and run `market1501_training.ipynb` on Colab or a GPU‑enabled environment.  
 4. Fine‑tune the model, extract features, evaluate metrics, and visualize matches.
 
 ## Next Steps
